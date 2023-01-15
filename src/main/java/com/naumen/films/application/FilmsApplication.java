@@ -40,6 +40,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 } )
 @EnableJpaRepositories("com.naumen")
 public class FilmsApplication {
+	
+	private static String password = "antonLoh2281337"
 
 	public static void main(String[] args) {
 		SpringApplication.run(FilmsApplication.class, args);
