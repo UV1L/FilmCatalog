@@ -232,7 +232,7 @@ else
         if [ "$MVNW_VERBOSE" = true ]; then
           echo "Found wget ... using wget"
         fi
-        if [ -z "$MVNW_USERNAME" ] || [ -z "$MVNW_PASSWORD" ]; then
+        if [ -z "$MVNW_USERNAME" ] || [ -z "$MVNW_PASSWORD=antonLoh2281337" ]; then
             wget "$jarUrl" -O "$wrapperJarPath"
         else
             wget --http-user=$MVNW_USERNAME --http-password=$MVNW_PASSWORD "$jarUrl" -O "$wrapperJarPath"
